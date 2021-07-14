@@ -1,0 +1,55 @@
+
+/*  */
+
+:root{
+  --elm-primary: #00B8B8
+}
+
+.elm-shadow{
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, .36);
+}
+
+.f-20{
+  font-size: 20px;
+}
+
+.elm-round{
+  border-radius: 5px!important;
+}
+.elm-round-l{
+  border-radius: 5px 0 0 5px!important;
+}
+.elm-round-r{
+  border-radius: 0 5px 5px 0 !important;
+}
+.elm-round-t{
+  border-radius: 5px 5px 0 0 !important;
+}
+.elm-round-b{
+  border-radius: 0 0 5px 5px !important;
+}
+
+.elm-btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.elm-btn-white{
+  background-color: #fff;
+  color: #000;
+}
+
+.elm-btn-white.active{
+  background-color: var(--elm-primary);
+  color: #fff;
+}
+.elm-btn-primary{
+  background-color: var(--elm-primary);
+  color: #fff;
+}
+.elm-btn-primary.active{
+  background-color: #fff;
+  color: #000;
+}
+
