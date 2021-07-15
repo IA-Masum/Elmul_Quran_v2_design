@@ -125,9 +125,23 @@ $(document).ready(function () {
       $(target).addClass('show');
       $(target).addClass('active');
     }, 10);
-
-
-
   });
 
 })
+
+
+function copyNumber(elm){
+  let number = elm.previousElementSibling.innerText;
+
+  let input = document.createElement('input');
+  input.type = 'text';
+  elm.appendChild(input);
+  input.setAttribute('value', number);
+  input.select();
+  document.execCommand("copy");
+  input.remove();
+  toastr.success("Copied...")
+  toastr
+
+}
+

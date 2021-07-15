@@ -238,18 +238,18 @@
         <div class="container">
           <div class="d-flex justify-content-center">
             <div class="elm-shadow elm-round">
-              <button class="btn elm-btn elm-btn-white active mr-1 elm-round-l tab-btn" id="saturday-tab" data-toggle="tab"
-                data-target="#saturday-panel" role="tab">Saturday</button>
-              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="sunday-tab" data-toggle="tab" data-target="#sunday-panel"
-                role="tab">Sunday</button>
-              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="monday-tab" data-toggle="tab" data-target="#saturday-panel"
-                role="tab">Monday</button>
-              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="tuesday-tab" data-toggle="tab" data-target="#sunday-panel"
-                role="tab">Tuesday</button>
-              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="wednesday-tab" data-toggle="tab" data-target="#saturday-panel"
-                role="tab">Wednesday</button>
-              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="thursday-tab" data-toggle="tab" data-target="#sunday-panel"
-                role="tab">Thursday</button>
+              <button class="btn elm-btn elm-btn-white active mr-1 elm-round-l tab-btn" id="saturday-tab"
+                data-toggle="tab" data-target="#saturday-panel" role="tab">Saturday</button>
+              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="sunday-tab" data-toggle="tab"
+                data-target="#sunday-panel" role="tab">Sunday</button>
+              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="monday-tab" data-toggle="tab"
+                data-target="#saturday-panel" role="tab">Monday</button>
+              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="tuesday-tab" data-toggle="tab"
+                data-target="#sunday-panel" role="tab">Tuesday</button>
+              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="wednesday-tab" data-toggle="tab"
+                data-target="#saturday-panel" role="tab">Wednesday</button>
+              <button class="btn elm-btn elm-btn-white mx-1 tab-btn" id="thursday-tab" data-toggle="tab"
+                data-target="#sunday-panel" role="tab">Thursday</button>
               <button class="btn elm-btn elm-btn-white ml-1 elm-round-r tab-btn" id="friday-tab" data-toggle="tab"
                 data-target="#sunday-panel" role="tab">Friday</button>
             </div>
@@ -608,10 +608,11 @@
           <div class="elm-round-b  p-3">
             <h4 class="mb-3">Web Development</h4>
             <sapn><i class="fas fa-chalkboard-teacher"></i> &MediumSpace; Sobuj Ahmed &MediumSpace; ( <a
-                href="tel:+8801751161511">01751161511</a>)</sapn>
+                href="tel:+8801751161511">01751161511</a>) <i type="button" onclick="copyNumber(this)" class="fas fa-copy ml-2"></i></sapn>
             <br>
             <sapn><i class="fa fa-user-graduate"></i> &MediumSpace; IA Masum &MediumSpace; (<a
-                href="tel:+8801751161511">01751161511</a>)</sapn>
+                href="tel:+8801751161511">01751161511</a>) <i type="button" onclick="copyNumber(this)" class="fas fa-copy ml-2"></i>
+            </sapn>
             <br>
             <sapn><i class="fa fa-calendar-alt"></i> &MediumSpace; 01/07/2021</sapn>
             <br>
@@ -638,6 +639,7 @@
   <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script src="assets/js/adminlte.js"></script>
+  <script src="./assets/js/toastr.min.js"></script>
 
   <script src="./assets/js/class-routine.js"></script>
 
